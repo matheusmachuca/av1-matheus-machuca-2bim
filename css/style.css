@@ -7,21 +7,26 @@ body {
 header {
   background-color: #000000;
   color: rgb(0, 0, 0);
-  -webkit-text-stroke: #f3e40c 1px;
+  -webkit-text-stroke: #f3e40c 2px;
   padding: 20px;
   text-align: center;
+  background-image: url("https://tse1.mm.bing.net/th/id/OIP.WzeTlIUjGrHzCfecxxCrmwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
+  background-size: background;
+  font-size: x-large;
 }
 
 nav {
-  background-color: #333;
+  background-image: url("https://tse1.mm.bing.net/th/id/OIP.WzeTlIUjGrHzCfecxxCrmwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
+  background-size: background;
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: white;
+  color: #f3e40c;
   text-decoration: none;
   margin: 0 10px;
+  font-family: candara;
 }
 
 main {
@@ -36,8 +41,8 @@ section {
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
 }
