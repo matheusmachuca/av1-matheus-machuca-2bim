@@ -13,6 +13,10 @@ header {
   background-image: url("https://tse1.mm.bing.net/th/id/OIP.WzeTlIUjGrHzCfecxxCrmwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
   background-size: background;
   font-size: x-large;
+  @font-face {
+  font-family: minhafonte;
+  src: url(minha_fonte.ttf); format("truetype");
+}
 }
 
 nav {
@@ -45,4 +49,9 @@ footer {
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 10px;
+}
+
+@font-face {
+  font-family: minhafonte;
+  src: url(minha_fonte.ttf); format("truetype");
 }
