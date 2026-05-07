@@ -13,10 +13,7 @@ header {
   background-image: url("https://tse1.mm.bing.net/th/id/OIP.WzeTlIUjGrHzCfecxxCrmwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
   background-size: background;
   font-size: x-large;
-  @font-face {
-  font-family: minhafonte;
-  src: url(minha_fonte.ttf); format("truetype");
-}
+  font-family: "minhafonte";
 }
 
 nav {
@@ -52,6 +49,8 @@ footer {
 }
 
 @font-face {
-  font-family: minhafonte;
-  src: url(minha_fonte.ttf); format("truetype");
+  font-family: "minhafonte";
+  src: url("StarJediLogoDoubleline1-z0e0.ttf"); format("ttf");
+  src: url("StarJediLogoDoubleline2-5lzB.ttf"); format("ttf");
+  src: url("StarJediLogoMonoline-6nGg.ttf"); format("ttf");
 }
