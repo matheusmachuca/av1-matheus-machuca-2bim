@@ -1,19 +1,20 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: helvettica, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #000000;
+  color: #fff127;
+  font-size: larger;
 }
 
 header {
   background-color: #000000;
   color: rgb(0, 0, 0);
-  -webkit-text-stroke: #f3e40c 2px;
   padding: 20px;
   text-align: center;
   background-image: url("https://tse1.mm.bing.net/th/id/OIP.WzeTlIUjGrHzCfecxxCrmwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
   background-size: background;
   font-size: x-large;
-  font-family: "minhafonte";
 }
 
 nav {
@@ -38,19 +39,40 @@ main {
 section {
   margin-bottom: 30px;
   padding: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #fff127;
+  color: #fff127;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
-  background-color: #000000;
-  color: rgb(255, 255, 255);
+  background-color: #fbff17;
+  color: rgb(43, 241, 255);
   text-align: center;
   padding: 10px;
+  font-family: candara;
+  font-size: x-large;
 }
 
-@font-face {
-  font-family: "minhafonte";
-  src: url("StarJediLogoDoubleline1-z0e0.ttf"); format("ttf");
-  src: url("StarJediLogoDoubleline2-5lzB.ttf"); format("ttf");
-  src: url("StarJediLogoMonoline-6nGg.ttf"); format("ttf");
+#foto {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#introdução {
+  background-color: #000000;
+  color: #fff127;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-variant-position: super;
+  -webkit-text-stroke-width: 50%;
+}
+
+#foto2 {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
 }
