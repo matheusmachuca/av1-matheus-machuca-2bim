@@ -7,6 +7,22 @@ body {
   font-size: larger;
 }
 
+@font-face {
+  font-family: "Aurebesh";
+  src: url(https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/aurebesh/Aurebesh-Regular.ttf)
+    format("truetype");
+  src: url(https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/aurebesh/Aurebesh-Regular.otf)
+    format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h2.AurekBesh,
+#teste {
+  font-family: "Aurebesh", helvetica, sans-serif !important;
+}
+
 header {
   background-color: #000000;
   color: rgb(0, 0, 0);
@@ -88,4 +104,47 @@ section iframe {
   height: 315px;
   display: inline-block;
   vertical-align: top;
+}
+
+#teste {
+  font-family: "Aurebesh", sans-serif;
+  font-size: 50px;
+}
+
+form {
+  background-color: #000000;
+  color: #fff127;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr {
+  border-bottom: 1px solid #fff127;
+}
+
+#fonte {
+  font-family: "Aurebesh", sans-serif;
+  font-size: 20px;
+}
+
+table {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 1px solid #fff127;
+}
+
+td {
+  border: 1px solid #fff127;
+}
+
+th {
+  border: 1px solid #fff127;
+  background-color: #000000;
+  color: #fff127;
+  padding: 10px;
 }
